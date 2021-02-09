@@ -1,0 +1,27 @@
+{
+  "name": "lyrics",
+  "version": "1.0.0",
+  "description": "Search Lyrics",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files='./*.html,./*.css'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmalta/lyrics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webmalta/lyrics/issues"
+  },
+  "homepage": "https://github.com/webmalta/lyrics#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}

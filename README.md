@@ -1,2 +1,2 @@
 # lyrics
-Search Lyrics
+Pequeno projeto de busca por letras musicais.
