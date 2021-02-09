@@ -9,12 +9,23 @@
 
   <!-- 3. Display the application -->
   <body>
-    <div class="container">
-        <h1>Lyrics Search</h1>
-        <div>
-            TESTE INIT
-        </div>
+    <div class="container-fluid">
+      <h1>Lyrics Search</h1>
     </div>
-  </body>
-
+        <div class="container-sm">
+          <div class="row">    
+            <div class="col-md">
+              <label>Cantor</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="col-sm">
+              <label>Música</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <button style="margin-top: 10px;" class="btn btn-primary">Search</button>          
+        </div>
+        <br />
+        <div class="container-sm result"></div>
+</body>
 </html>
